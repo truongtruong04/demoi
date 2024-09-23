@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { publicClient, walletClient } from '../../../clients';
 import { contract } from '../CollateralManagerAbi'; // Thay thế bằng tên file chứa ABI

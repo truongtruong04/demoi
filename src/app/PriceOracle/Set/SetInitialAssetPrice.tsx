@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { publicClient, walletClient } from '../../../clients'; // Cập nhật đường dẫn đến client của bạn
 import { contract } from '../PriceOracleAbi'; // Đảm bảo import ABI đúng

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { publicClient } from '../../../clients'; // Đảm bảo đường dẫn client là chính xác
 import { contract } from '../../CollateralManager/CollateralManagerAbi'; // Thay thế bằng ABI của bạn

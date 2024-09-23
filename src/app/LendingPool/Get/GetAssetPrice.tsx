@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { publicClient } from '../../../clients'; // Đảm bảo đường dẫn client là chính xác
 import { contract } from '../../PriceOracle/PriceOracleAbi'; // Thay thế bằng ABI của bạn

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from 'react';
 import { publicClient, walletClient } from '../../../clients';
 import { contract } from '../LendingPoolAbi'; // Thay đổi đường dẫn đúng với ABI của bạn
